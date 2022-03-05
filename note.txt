@@ -1,6 +1,14 @@
 buatlah beberapa class 
 +parent
 kelas Produk (jadikan class abstract)
+	properti 
+	- harga (private)
+	- judul (private)
+	- slug (private)
+	method 
+	- infoProduk (protected)
+	- construct (public)
+
 - class Produk, didalamnya yang mempunyai properti judul, harga, slug
 - buat juga untuk fungsi construct untuk melakukan set terhadap properti diatas
   dan kasih nilai default dari parameter yang ada didalam fungsi construct tersebut
@@ -10,6 +18,12 @@ kelas Produk (jadikan class abstract)
 
 +child
 kelas Komik estends Produk
+	properti 
+	- jumlahHalaman (private)
+	method
+	- infoProduk (public)
+	- construct (public)
+
 - kelas Komik, didalamnya ada properti jumlah halaman
 - lakukan overrid dari method construct dari kelas parent untuk 
   ditambahin logic melakukan set dari properti jumlah halaman
@@ -18,6 +32,12 @@ kelas Komik estends Produk
 
 +child
 kelas Game extends Produk
+	properti 
+	- durasi (private)
+	method 
+	- infoProduk (public)
+	- construct (public)
+
 - kelas game, didalamnya ada properti durasi
 - lakukan overried dari method construct dari kelas parent untuk
   ditambahin logic melakukan set dari properti durasi
@@ -27,7 +47,7 @@ kelas Game extends Produk
 
 -output
 +komik
-One Piece | 20000 | one-piece | 1000 halaman
+One Piece | 20.000 | one-piece | 1000 halaman
 ===============================================
 +game
-PES 2019 | 200000 | pes-2019 | 20 jam
+PES 2019 | 200.000 | pes-2019 | 20 jam
