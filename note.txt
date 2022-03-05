@@ -1,0 +1,26 @@
+buatlah sebuah class 
++parent
+kelas Produk (jadikan class abstract)
+- class Produk, didalamnya yang mempunyai properti judul, harga, sampul
+- buat juga untuk fungsi construct untuk melakukan set terhadap properti diatas
+  dan kasih nilai default dari parameter yang ada didalam fungsi construct tersebut
+- buat sebuah method dari class Produk tersebut untuk bisa dilakukan
+  overried di class childnya yaitu infoProduk 
+- didalam method infoProduk mengembalikan nilai properti judul, harga, dan sampul
+  yang sudah dilakukan set pada method construct
+
++child
+kelas Komik
+- kelas Komik, didalamnya ada properti jumlah halaman
+- lalu lakukan overrid dari method atau fungsi infoProduk dari kelas parentnya
+  untuk menambahkan logic mengembalikan nilai dari jumlah halaman
+- lakukan overrid dari method construct dari kelas parent untuk 
+  ditambahin logic melakukan set dari properti jumlah halaman
+
++child
+kelas Game
+- kelas game, didalamnya ada properti durasi
+- lalu lakukan overried dari method atau fungsi infoProduk dari kelas parentnya
+  untuk menambahkan logic mengembalikan nilai dari durasi
+- lakukan overried dari method construct dari kelas parent untuk
+  ditambahin logic melakukan set dari properti durasi
