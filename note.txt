@@ -1,4 +1,4 @@
-buatlah sebuah class 
+buatlah beberapa class 
 +parent
 kelas Produk (jadikan class abstract)
 - class Produk, didalamnya yang mempunyai properti judul, harga, slug
